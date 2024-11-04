@@ -153,7 +153,7 @@ const handleinput = (event) => {
 <div className="flex justify-end">
 <button
   type="submit"
-  className={`px-10 p-2 rounded-md text-white ${
+  className={`px-10 p-2 rounded-md text-black ${
     loading ? "bg-blue-300 text-white cursor-not-allowed" : "bg-white border shadow-lg border-1 border-blue-300 text-black  "
   }`}
   disabled={loading}
